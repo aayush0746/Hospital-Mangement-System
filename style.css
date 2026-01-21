@@ -102,7 +102,7 @@ header{
 
 .main-home{
     padding: 2rem 7%;
-    background-image: url(images/blurbg1.jpg);
+    background-image: url(blurbg1.jpg);
     width: 100%;
     min-height: 100vh;
     background-size: cover;
@@ -192,7 +192,7 @@ header{
     flex: 1 1 300px;
     padding: 3rem 3rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-image: url(images/backgroung-pattern-1.png);
+    background-image: url(backgroung-pattern-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -256,7 +256,7 @@ header{
 .main-about{
     padding: 2rem 7%;
     width: 100%;
-    background-image: url(images/backgroung-pattern-1.png);
+    background-image: url(backgroung-pattern-1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -330,7 +330,7 @@ header{
 }
 .main-doctors{
     padding: 2rem 7%;
-    background-image: url(images/backgroung-pattern-3.png);
+    background-image: url(backgroung-pattern-3.png);
     background-color: #f5f5f5;
     width: 100%;
     
@@ -701,4 +701,5 @@ header{
         font-size: 20px;
     }
     
+
 }
