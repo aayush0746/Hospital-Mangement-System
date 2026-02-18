@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient Appointment Request</title>
+  <link rel="stylesheet" href="./Appointment_form.css">
+</head>
+
+<body>
+
+<form class="appointment-form" id="appointmentForm">
+  <h2>Patient Appointment Request Form</h2>
+
+  <!-- Requester Information -->
+  <h3>Requester Information</h3>
+
+  <div class="row">
+    <div>
+      <label>Full Name</label>
+      <input type="text" id="fullName" placeholder="Enter your name">
+    </div>
+
+    <div>
+      <label>Email</label>
+      <input type="email" id="email" placeholder="Enter email">
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <label>Phone Number</label>
+      <input type="text" id="phone" placeholder="Enter phone number">
+    </div>
+
+    <div>
+      <label>Alternate Phone</label>
+      <input type="text" id="altPhone" placeholder="Optional">
+    </div>
+  </div>
+
+  <!-- Patient Information -->
+  <h3>Patient Information</h3>
+
+  <div class="row">
+    <div>
+      <label>Patient Name</label>
+      <input type="text" id="patientName" placeholder="Patient full name" required>
+    </div>
+
+    <div>
+      <label>Gender</label>
+      <select id="gender" required>
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <label>Date of Birth</label>
+      <input type="date" id="dob">
+    </div>
+
+    <div>
+      <label>Marital Status</label>
+      <select id="maritalStatus">
+        <option value="">Select</option>
+        <option>Single</option>
+        <option>Married</option>
+        <option>Widowed</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- Appointment Details -->
+  <h3>Appointment Details</h3>
+
+  <div class="row">
+    <div>
+      <label>Department</label>
+      <select id="department" required>
+        <option value="">Select Department</option>
+        <option>General</option>
+        <option>Cardiology</option>
+        <option>Orthopedics</option>
+        <option>Neurology</option>
+      </select>
+    </div>
+
+    <div>
+      <label>Doctor</label>
+      <select id="doctor" required>
+        <option value="">Select Doctor</option>
+        <option>Dr. Ayush</option>
+        <option>Dr. Nikhlesh</option>
+        <option>Dr. Rahul</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="row">
+    <div>
+      <label>Appointment Date</label>
+      <input type="date" id="appDate" required>
+    </div>
+
+    <div>
+      <label>Appointment Time</label>
+      <input type="time" id="appTime" required>
+    </div>
+  </div>
+
+  <label>Problem / Symptoms</label>
+  <textarea rows="3" id="symptoms" placeholder="Describe the health issue"></textarea>
+
+  <div class="btn-group">
+    <button type="submit">Submit Request</button>
+    <button type="reset">Reset</button>
+  </div>
+
+</form>
+
+<script src="appointment.js"></script>
+
+</body>
+</html>
